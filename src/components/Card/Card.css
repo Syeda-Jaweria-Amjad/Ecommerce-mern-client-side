@@ -1,0 +1,104 @@
+.card-container {
+    max-width: 20rem;
+    max-height: 37rem;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Background color for the card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
+
+.img-div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* border-radius: 5px; Rounded corners for the image container */
+    position: relative;
+    display: inline-block;
+}
+
+.img-div main-img {
+    display: block; /* Remove the gap below the image */
+    width: 100%; /* Make the image responsive */
+    height: auto;
+  }
+.tag{ 
+    position: absolute; /* Position relative to the container */
+    bottom: 10px; /* Adjust the bottom position */
+    right: 10px; /* Adjust the right position */
+    background-color: rgb(198, 59, 59); /* Background color of the tag */
+    color: white; /* Text color of the tag */
+    padding: 6px 10px; /* Padding inside the tag */
+    font-size: 13px; /* Font size of the text */
+    font-weight: 500; /* Make the text bold */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+
+.main-img:hover {
+    transform: scale(1.05);
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 15px;
+    
+}
+
+.title-div{
+    font-size: 16px;
+    font-weight: 500;
+    /* transition: transform 1s ease; */
+    /* transform-origin: bottom left; */
+}
+.title-div:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px; /* Adjust thickness as needed */
+    text-underline-offset: 4px; /*make space in text and underline*/
+    /* transform: scale(1.02); */
+}
+
+.star-div{
+    display: flex;
+    margin-block-start: 5px;
+
+}
+
+.price-div{
+    margin-right: 10px;
+    margin-block-start: 5px;
+    display: flex;
+    gap: 8rem;
+    
+    /* gap: 20px; */
+}
+.old-price{
+    font-size: 14px;
+    text-decoration:line-through;
+}
+
+.price{
+    display: flex;
+    justify-content: start;
+    gap: 22px;
+    font-size: 20px;
+}
+.op{
+    font-size: 20px;
+}
+.np{
+    color: green;
+    font-weight: 500;
+}
+

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2530cfa7.css",
+    "main.js": "/static/js/main.554398ad.js",
+    "static/media/zilbill.webp": "/static/media/zilbill.87097a60c627474a5e02.webp",
+    "static/media/size_chart.webp": "/static/media/size_chart.1e324149de349832d34c.webp",
+    "index.html": "/index.html",
+    "main.2530cfa7.css.map": "/static/css/main.2530cfa7.css.map",
+    "main.554398ad.js.map": "/static/js/main.554398ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2530cfa7.css",
+    "static/js/main.554398ad.js"
+  ]
+}

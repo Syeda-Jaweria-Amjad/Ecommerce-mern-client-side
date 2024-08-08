@@ -1,0 +1,7 @@
+.thumbnail-image {
+    display: block;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Space between thumbnail images */
+  }
+  
